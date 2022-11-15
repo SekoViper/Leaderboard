@@ -1,3 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
 body {
+  height: 100%;
+  font-family: "lato", sans-serif;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
   background-color: bisque;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.page-title {
+  font-size: 62px;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.center-element {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.score-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.display-container {
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #ffd7a8;
+  margin-top: 30px;
+}
+
+.score {
+  font-size: 18px;
+  padding: 8px 10px;
+}
+
+.score:nth-child(even) {
+  background-color: #ffd7a8;
+}
+
+input {
+  display: block;
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+  border: none;
+  background-color: transparent;
+  border-bottom: solid #fab463;
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn {
+  box-shadow: inset 0 1px 0 0 #fce2c1;
+  background: linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+  background-color: #ffc477;
+  border-radius: 10px;
+  border: 2px solid #eeb44f;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  padding: 7px 15px;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+  background-color: #fb9e25;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
 }
