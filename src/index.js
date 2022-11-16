@@ -1,4 +1,4 @@
-import displayScores from '../modules/score.js';
+import { getGameId } from '../modules/createData.js';
 import './style.css';
 
-displayScores();
+getGameId();
