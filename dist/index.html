@@ -1,9 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Output Management</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><script defer src="runtime.js"></script><script defer src="main.js"></script></head>
+    <meta charset="utf-8" />
+    <title>Getting Started</title>
+    <script src="https://unpkg.com/lodash@4.17.20"></script>
+  <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
   <body>
+    <header class="center-element">
+      <h1 class="page-title">Leaderboard</h1>
+    </header>
+    <main>
+      <section>
+        <div class="container center-element">
+          <div class="display-scores">
+            <div class="score-header">
+              <h2>Recent Scores</h2>
+              <button class="refresh-btn btn">Refresh</button>
+            </div>
+            <ul id="display-scores" class="display-container">
+              <!-- display-scores -->
+            </ul>
+          </div>
+          <div class="add-scores">
+            <section>
+              <h2>Add Your Score</h2>
+              <form id="form">
+                <input type="text" name="name" id="name" placeholder="Your Name">
+                <input type="number" name="score" id="score" placeholder="Your Score">
+                <input class="btn" type="submit" value="Submit">
+              </form>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- <script src="./src/index.js"></script> -->
+    <script src="main.js"></script>
   </body>
 </html>
