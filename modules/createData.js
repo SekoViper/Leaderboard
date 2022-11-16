@@ -1,4 +1,4 @@
-import { displayScores } from './score';
+import { displayScores } from './score.js';
 
 const refreshBtn = document.getElementById('refresh-btn');
 const form = document.getElementById('form');
