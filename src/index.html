@@ -2,8 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Getting Started</title>
-    <script src="https://unpkg.com/lodash@4.17.20"></script>
+    <title>Leaderboard Project</title>
   </head>
   <body>
     <header class="center-element">
@@ -15,7 +14,7 @@
           <div class="display-scores">
             <div class="score-header">
               <h2>Recent Scores</h2>
-              <button class="refresh-btn btn">Refresh</button>
+              <button class="refresh-btn btn" id="refresh-btn">Refresh</button>
             </div>
             <ul id="display-scores" class="display-container">
               <!-- display-scores -->
@@ -24,16 +23,15 @@
           <div class="add-scores">
             <section>
               <h2>Add Your Score</h2>
-              <form>
+              <form id="form">
                 <input type="text" name="name" id="name" placeholder="Your Name">
                 <input type="number" name="score" id="score" placeholder="Your Score">
-                <input class="btn" type="submit" value="Submit">
+                <input class="btn" type="submit" value="Submit" id="submit">
               </form>
             </section>
           </div>
         </div>
       </section>
     </main>
-    <script src="./src/index.js"></script>
   </body>
 </html>
