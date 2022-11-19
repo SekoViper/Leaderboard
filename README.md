@@ -18,7 +18,7 @@ To get a local copy up and running follow these simple example steps.
 > code . (if you uses Vscode)
 
 ### Live Demo
-> [Live Demo](https://sekoviper.github.io/#)
+> [Live Demo](https://sekoviper.github.io/Leaderboard/dist/)
 
 
 ## Author
