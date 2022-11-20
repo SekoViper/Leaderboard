@@ -48,6 +48,7 @@ form.addEventListener('submit', (event) => {
   if (form.name.value && form.score.value) {
     saveScore(form.name.value, form.score.value);
   }
+  // clear form input after form submission
   form.reset();
 });
 
